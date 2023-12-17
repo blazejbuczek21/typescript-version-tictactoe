@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="tictactoe.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">Tic Tac Toe</div>
+    </div>
+    <div class="mode">
+      <div id="computer" class="header_item" onclick="computerGame()">
+        Computer
+      </div>
+      <div id="players" class="header_item" onclick="playerGame()">
+        2 Players
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="info" class="info"></h1>
+    </div>
+    <div class="board">
+      <div class="cell" id="0"></div>
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+    </div>
+    <button id="restart" class="restart">Restart</button>
+    <script src="dist/app.js"></script>
+  </body>
+</html>
